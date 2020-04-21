@@ -1,0 +1,124 @@
+/* #cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+} */
+.close {
+    height: 20px;
+    background-color: #777;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.consent__banner {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.consent__banner {
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 55.9375rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.consent__button {
+    background-color: #a5a5a5;
+    color: #ffffff;
+    min-width: 6.25rem;
+    width: 100%;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    padding: 0.35rem 1.5rem;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+
+.consent__button-column {
+    margin-top: 0.5rem;
+    width: 10%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+._8f1i {
+    background-color: rgba(0, 0, 66);
+    border-radius: inherit;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* #invisible_button {
+    margin-top: 785px;
+    margin-left: 725px;
+    position: fixed;
+    z-index: 111;
+    opacity: 0;
+}
+
+#invisible_button:hover {
+    box-shadow: none;
+} */
+
+.search-input {
+    width: 700px;
+}
